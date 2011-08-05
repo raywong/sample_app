@@ -6,7 +6,7 @@
 body {
  /* background: #cff;*/
   background-image:url('blue_line_background.jpg');
-
+  background-attachment:fixed;
 }
 
 header {
