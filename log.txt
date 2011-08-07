@@ -1,0 +1,564 @@
+......FFFFFFFFFFFFFFF...................
+
+Failures:
+
+  1) PagesController GET 'home' should be successful
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  2) PagesController GET 'home' should have the right title
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  3) PagesController GET 'contact' should be successful
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  4) PagesController GET 'contact' should have the right title
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  5) PagesController GET 'about' should be successful
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  6) PagesController GET 'about' should have the right title
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  7) PagesController GET 'help' should be successful
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  8) PagesController GET 'help' should have the right title
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  9) UsersController GET 'show' should be successful
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  10) UsersController GET 'show' should find the right user
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  11) UsersController GET 'show' should have the right title
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  12) UsersController GET 'show' should include the user's name
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  13) UsersController GET 'show' should have a profile image
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  14) UsersController GET 'new' should be successful
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+  15) UsersController GET 'new' should have the right title
+     Failure/Error: Unable to find matching line from backtrace
+     NameError:
+       uninitialized constant ActionController::TestCase::Assertions
+     # /usr/lib/ruby/1.8/action_controller/integration.rb:18
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/integrations/rails.rb:2
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:105:in `mode='
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/webrat-0.7.1/lib/webrat/core/configuration.rb:9:in `configure'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-rails-2.6.1/lib/rspec/rails/vendor/webrat.rb:26
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `instance_eval'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:35:in `run_in'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:70:in `run_all'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/hooks.rb:126:in `run_hook_filtered'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:220:in `eval_before_eachs'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:145:in `run_before_each'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:47:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:107:in `with_around_hooks'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example.rb:45:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:294:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:290:in `run_examples'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:262:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/example_group.rb:263:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `map'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:24:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/reporter.rb:12:in `report'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/command_line.rb:21:in `run'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:80:in `run_in_process'
+     # /usr/lib/ruby/gems/1.8/gems/rspec-core-2.6.4/lib/rspec/core/runner.rb:69:in `run'
+
+Finished in 0.38527 seconds
+40 examples, 15 failures
+
+Failed examples:
+
+rspec ./spec/controllers/pages_controller_spec.rb:12 # PagesController GET 'home' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:17 # PagesController GET 'home' should have the right title
+rspec ./spec/controllers/pages_controller_spec.rb:24 # PagesController GET 'contact' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:29 # PagesController GET 'contact' should have the right title
+rspec ./spec/controllers/pages_controller_spec.rb:36 # PagesController GET 'about' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:41 # PagesController GET 'about' should have the right title
+rspec ./spec/controllers/pages_controller_spec.rb:47 # PagesController GET 'help' should be successful
+rspec ./spec/controllers/pages_controller_spec.rb:52 # PagesController GET 'help' should have the right title
+rspec ./spec/controllers/users_controller_spec.rb:12 # UsersController GET 'show' should be successful
+rspec ./spec/controllers/users_controller_spec.rb:17 # UsersController GET 'show' should find the right user
+rspec ./spec/controllers/users_controller_spec.rb:22 # UsersController GET 'show' should have the right title
+rspec ./spec/controllers/users_controller_spec.rb:27 # UsersController GET 'show' should include the user's name
+rspec ./spec/controllers/users_controller_spec.rb:32 # UsersController GET 'show' should have a profile image
+rspec ./spec/controllers/users_controller_spec.rb:39 # UsersController GET 'new' should be successful
+rspec ./spec/controllers/users_controller_spec.rb:46 # UsersController GET 'new' should have the right title
