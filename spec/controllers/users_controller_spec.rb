@@ -49,6 +49,7 @@ describe UsersController do
     end
   end
 
+<<<<<<< HEAD
   describe "POST 'create'" do
 
     describe "failure" do
@@ -132,4 +133,6 @@ describe UsersController do
 
 
 
+=======
+>>>>>>> 539178f3ebcdfb039a116a933668943878fb829a
 end

@@ -41,6 +41,7 @@ describe "LayoutLinks" do
     click_link "Sign up now!"
     response.should have_selector('title', :content => "Sign up")
   end
+<<<<<<< HEAD
   
   describe "when not signed in" do
     it "should have a signin link" do
@@ -73,6 +74,8 @@ describe "LayoutLinks" do
     end
     
   end
+=======
+>>>>>>> 539178f3ebcdfb039a116a933668943878fb829a
 
 end
 

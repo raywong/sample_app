@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   end
   	
   def new
+<<<<<<< HEAD
     @user = User.new
 	  @title = "Sign up"
   
@@ -25,6 +26,9 @@ class UsersController < ApplicationController
   def edit
     @user = User.find(params[:id])
     @title = "Edit user"
+=======
+	  @title = "Sign up"
+>>>>>>> 539178f3ebcdfb039a116a933668943878fb829a
   end
 
 end

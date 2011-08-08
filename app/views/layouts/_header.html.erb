@@ -4,6 +4,7 @@
         <nav class="round">
           <ul>
             <li><%= link_to "Home", root_path %></li>
+<<<<<<< HEAD
             <% if signed_in? %>
             <li><%= link_to "Profile", current_user %></li>
             <li><%= link_to "Settings", edit_user_path(current_user) %></li>
@@ -14,6 +15,10 @@
             <% else %>
             <li><%= link_to "Sign in", signin_path %></li>
             <% end %>
+=======
+            <li><%= link_to "Help", help_path %></li>
+            <li><%= link_to "Sign in", '#' %></li>
+>>>>>>> 539178f3ebcdfb039a116a933668943878fb829a
           </ul>
         </nav>
 	
